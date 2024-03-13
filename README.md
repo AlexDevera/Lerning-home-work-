@@ -22,3 +22,12 @@ config.vm.box = "ubuntu/focal64" # Target OS
   SHELL
 end # finish 
 ```
+
+```text
+🎓 Lesson#2
+--Target--
+1)
+2) 
+3) 
+
+```
