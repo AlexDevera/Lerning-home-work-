@@ -26,8 +26,7 @@ end # finish
 ```text
 🎓 Lesson#2
 --Target--
-1)
-2) 
-3) 
+1) Write Vagrant File and playbook file
+2) Autostart "Nginx" service after OS launch on 8080 port
 
 ```
