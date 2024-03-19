@@ -16,10 +16,6 @@ config.vm.provision "shell", inline: <<-SHELL
 	sudo wget https://nc.alex-cloud.ru/index.php/s/qCLRcHL9TSQfYfr/download/playbook.yml
 	sudo ansible-playbook playbook.yml
   SHELL
-  
-  config.vm.provision "ansible" do |ansible|
-    ansible.playbook = "~/Documents/Home_work/playbooks/playbook.yml"
-  end
 
   config.vm.network "forwarded_port", guest: 80, host: 8080
 end
