@@ -30,3 +30,24 @@ end # finish
 2) Autostart "Nginx" service after OS launch on 8080 port
 
 ```
+--Playbook file example--
+
+```yaml
+- hosts: localhost
+  become: true
+  tasks:
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+
+    - name: Install nginx
+      apt:
+        name: nginx
+        state: present
+
+    - name: Start nginx
+      service:
+        name: nginx
+        state: started
+        enabled: true
+```
