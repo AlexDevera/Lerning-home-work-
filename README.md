@@ -25,9 +25,11 @@ end # finish
 
 ```text
 🎓 Lesson#2
+!! Vagrantfile has been updated
 --Target--
 1) Write Vagrant File and playbook file
 2) Autostart "Nginx" service after OS launch on 8080 port
+
 
 ```
 --Playbook file example--
